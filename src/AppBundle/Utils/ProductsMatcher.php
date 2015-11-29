@@ -60,7 +60,6 @@ class ProductsMatcher
     {
         /**
          * @todo: configuration for checking if name, description or both match
-         * @todo: PSR2
          */
         return (stripos($product->getName(), $this->query) !== false ||
             stripos($product->getDescription(), $this->query) !== false);
