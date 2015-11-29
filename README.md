@@ -10,6 +10,10 @@ PHP >= 5.4.1
 
 composer install
 
+## tests
+
+bin/phpunit -c app/
+
 ## running
 
 app/console server:run
